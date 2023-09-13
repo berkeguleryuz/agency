@@ -19,12 +19,12 @@ const Discover = () => {
           trash. Our senior security experts then perform social engineering
           hacks to gain access to their{" "}
           <strong className="font-semibold text-neutral-950">business</strong>
-          accounts — handing that information over to our forensic accounting
+          {" "}accounts that information over to our forensic accounting
           team.
         </p>
         <p>
           Once the full audit is complete, we report back with a comprehensive
-          <strong className="font-semibold text-neutral-950">plan</strong> and,
+          <strong className="font-semibold text-neutral-950">plan</strong>{" "}and,
           more importantly, a budget.
         </p>
       </div>

@@ -28,10 +28,9 @@ const Build = () => {
         </p>
       </div>
       <Blockquote
-        author={{ name: "Debra Fiscal", role: "CEO of Unseal" }}
+        author={{ name: "Clodron", role: "Web & Blockchain Agency" }}
         className="mt-12">
-        Studio_clone were so regular with their progress updates we almost began
-        to think they were automated!
+        Clodron will build your project from the ground up.
       </Blockquote>
     </Section>
   );
