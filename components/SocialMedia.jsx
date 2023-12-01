@@ -16,7 +16,7 @@
 //   },
 //   {
 //     title: "GitHub",
-//     href: "https://github.com/berkeguleryuz/",
+//     href: "https://guleryuz/",
 //     icon: BsGithub,
 //   },
 //   {
