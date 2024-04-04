@@ -34,11 +34,11 @@ const Clients = () => {
         <FadeInStagger faster>
           <ul
             role="list"
-            className="mt-10 grid grid-cols-2 gap-x-8 gap-y-10 lg:grid-cols-4 text-center items-center">
+            className="mt-10 grid grid-cols-2 gap-x-8 gap-y-10 lg:grid-cols-5 text-center items-center">
             {clients.map(([client, logo]) => (
               <div
                 key={client}
-                className="w-auto h-auto justify-center text-center items-center self-center flex">
+                className="w-auto h-auto justify-center text-center items-center self-center flex hover:opacity-70 hover:scale-105">
                 <li
                   key={client}
                   className="justify-center items-center text-center ">
@@ -46,7 +46,7 @@ const Clients = () => {
                     <Image
                       src={logo}
                       alt={client}
-                      className="float-left w-[190px] h-[150px] bg-cover bg-center bg-no-repeat"
+                      className="float-left w-full min-h-min bg-cover bg-center bg-no-repeat"
                       unoptimized
                     />
                   </FadeIn>
