@@ -4,24 +4,28 @@ import { locales } from "../../config";
 import { getTranslations, unstable_setRequestLocale } from "next-intl/server";
 import { NextIntlClientProvider, useMessages, useTimeZone } from "next-intl";
 
-export function generateStaticParams() {
-  return locales.map((locale) => ({ locale }));
-}
+// export function generateStaticParams() {
+//   return locales.map((locale) => ({ locale }));
+// }
 
-export async function generateMetadata({ params: { locale } }) {
-  const t = await getTranslations({ locale, namespace: "LocaleLayout" });
+// export async function generateMetadata({ params: { locale } }) {
+//   const t = await getTranslations({ locale, namespace: "LocaleLayout" });
 
-  return {
-    title: t("title"),
-  };
-}
+//   return {
+//     title: t("title"),
+//     favicon: "/qrberke.png",
+//   };
+// }
 
-// export const metadata = {
-//   title: "Clodron Agency",
-//   description: "Clodron Marketing & Web3 Agency",
-// };
+export const metadata = {
+  title: "Clodron Agency",
+  description: "Clodron Marketing & Web3 Agency",
+};
 
-export default function Layout({ children, className, params: { locale } }) {
+export default function Layout({
+  children,
+  params: { locale },
+}) {
   unstable_setRequestLocale(locale);
   const messages = useMessages();
   const timeZone = useTimeZone();

@@ -20,28 +20,28 @@ const ContactForm = () => {
   const [successMessage, setSuccessMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
-  // const handleSubmit = async (e) => {
-  //   e.preventDefault();
-  //   try {
-  //     const response = await fetch("/api/route", {
-  //       method: "POST",
-  //       headers: {
-  //         "Content-Type": "application/json",
-  //       },
-  //       body: JSON.stringify(formData),
-  //     });
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await fetch("/api/route", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
 
-  //     if (response.ok) {
-  //       const data = await response.json();
-  //       setSuccessMessage(data.message);
-  //     } else {
-  //       throw new Error("E-mail did not send. Please try again.");
-  //     }
-  //   } catch (error) {
-  //     console.error(error);
-  //     setErrorMessage(t("Contact16"));
-  //   }
-  // };
+      if (response.ok) {
+        const data = await response.json();
+        setSuccessMessage(data.message);
+      } else {
+        throw new Error("E-mail did not send. Please try again.");
+      }
+    } catch (error) {
+      console.error(error);
+      setErrorMessage(t("Contact16"));
+    }
+  };
 
   const handleChange = (e) => {
     const { name, value } = e.target;

@@ -1,8 +1,10 @@
 import PageIntro from "@/components/PageIntro";
 import { useTranslations } from "next-intl";
 import React from "react";
+import { unstable_setRequestLocale } from "next-intl/server";
 
 const WorkPage = () => {
+  unstable_setRequestLocale(locale);
   const t = useTranslations("Work");
   return (
     

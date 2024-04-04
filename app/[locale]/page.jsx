@@ -6,8 +6,10 @@ import Services from "@/components/Services";
 import ContactSection from "@/components/ContactSection";
 import { useTranslations } from "next-intl";
 import { LocaleSwitchers } from "@/components/LangToggle";
+import { unstable_setRequestLocale } from "next-intl/server";
 
-export default function Home() {
+export default function Home({ locale }) {
+  unstable_setRequestLocale(locale);
   const t = useTranslations("Home");
   return (
     <main className="text-black">
