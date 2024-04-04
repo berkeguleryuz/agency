@@ -1,4 +1,3 @@
-
 export const locales = ["en", "tr", "de"];
 
 export const pathnames = {

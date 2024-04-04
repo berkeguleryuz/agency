@@ -140,5 +140,8 @@
     "Contact14": "Budget",
     "Contact15": "Let’s work together",
     "Contact16": "E-mail did not send. Please try again."
+  },
+  "LocaleLayout": {
+    "title": "next-intl Beispiel"
   }
 }

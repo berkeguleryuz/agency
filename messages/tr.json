@@ -140,5 +140,8 @@
     "Contact14": "Bütçe",
     "Contact15": "Birlikte Çalışalım",
     "Contact16": "E-posta gönderilemedi. Lütfen tekrar deneyin."
+  },
+  "LocaleLayout": {
+    "title": "next-intl Beispiel"
   }
 }
