@@ -42,7 +42,7 @@ export default async function handler(req, res) {
         .status(500)
         .json({
           success: false,
-          message: "E-posta gönderme hatası: " + error.message,
+          message: error.message,
         });
     }
   } else {
