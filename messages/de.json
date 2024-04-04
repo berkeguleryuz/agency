@@ -1,0 +1,51 @@
+{
+  "Home": {
+    "Home0": "asdy with us!",
+    "Home1": "We are a group of developer working at the intersection of design and technology.",
+    "Home2": "Success is not measured by wealth alone; it's also about personal growth and happiness."
+  },
+  "Clients": {
+    "Clients0": "We worked with amazing clients"
+  },
+  "Services": {
+    "Services": "Services",
+    "ServicesT": "We help you identify, explore and respond to new opportunities.",
+    "Services0": "As long as those opportunities involve giving us money to re-purpose old projects — we can come up with an endless number of those.",
+    "Services1": "We specialize in creating beatufiul, high quality web and blockchain developments and pages.",
+    "Services2": "We have a team of experienced developers who can help you build your application.",
+    "Services3": "We are at the forefront of modern e-commerce development. Which mainly means adding your logo to the Shopify store template we’ve used for the past six years.",
+    "Services4": "We will manage your community on social media, building a strong brand.",
+    "ServicesT1": "Web Development",
+    "ServicesT2": "Application Development",
+    "ServicesT3": "E-Commerce",
+    "ServicesT4": "Community Management"
+  },
+  "ContactSection": {
+    "ContactSection0": "Tell us about your project",
+    "ContactSection1": "Contact us",
+    "ContactSection2": "Our offices"
+  },
+  "Offices": {
+    "Offices": "Our Offices",
+    "Offices0": "Turkey",
+    "Offices1": "Germany"
+  },
+  "Button": {
+    "Button0": "Contact us"
+  },
+  "Navigation": {
+    "Navigation0": "Our Work",
+    "Navigation1": "About Us",
+    "Navigation2": "Our Process",
+    "Navigation3": "Contact"
+  },
+  "Work": {
+    "Work0": "Our Work",
+    "Work1": "Proven solutions for real-world visions",
+    "Work2": "We believe in efficiency and maximizing our resources to provide our clients with the best solutions. The primary focus of our work is to provide our clients with the best solutions for their business."
+  },
+  "LocaleSwitcher": {
+    "label": "Sprache ändern",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unbekannt}}"
+  }
+}

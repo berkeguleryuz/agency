@@ -5,17 +5,19 @@ import FadeIn from "./FadeIn";
 import StylizedImage from "./StylizedImage";
 import imageLaptop from "../app/images/laptop.jpg";
 import List, { ListItem } from "./List";
+import { useTranslations } from "next-intl";
 
 const Services = () => {
+  const t = useTranslations("Services");
+
   return (
-    <>
+    <div>
       <SectionIntro
-        eyebrow="Services"
-        title="We help you identify, explore and respond to new opportunities."
+        eyebrow={t("Services")}
+        title={t("ServicesT")}
         className="mt-24 sm:mt-32 lg:mt-40">
         <p>
-          As long as those opportunities involve giving us money to re-purpose
-          old projects — we can come up with an endless number of those.
+        {t("Services0")}
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -31,27 +33,22 @@ const Services = () => {
           </div>
           {/* List item ^_^ */}
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
-            <ListItem title="Web Development">
-              We specialize in creating beatufiul, high quality web and
-              blockchain developments and pages.
+            <ListItem title={t("ServicesT1")}>
+            {t("Services1")}
             </ListItem>
-            <ListItem title="Application Development">
-              We have a team of experienced developers who can help you build
-              your application.
+            <ListItem title={t("ServicesT2")}>
+            {t("Services2")}
             </ListItem>
-            <ListItem title="E-Commerce">
-              We are at the forefront of modern e-commerce development. Which
-              mainly means adding your logo to the Shopify store template we’ve
-              used for the past six years.
+            <ListItem title={t("ServicesT3")}>
+            {t("Services3")}
             </ListItem>
-            <ListItem title="Community Management">
-              We will manage your community on social media, building a strong
-              brand.
+            <ListItem title={t("ServicesT4")}>
+            {t("Services4")}
             </ListItem>
           </List>
         </div>
       </Container>
-    </>
+    </div>
   );
 };
 

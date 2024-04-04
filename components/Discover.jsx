@@ -2,42 +2,34 @@ import React from "react";
 import Section from "./Section";
 import imageWhiteboard from "@/app/images/whiteboard.jpg";
 import { TagList, TagListItem } from "./TagList";
+import { useTranslations } from "next-intl";
 
 const Discover = () => {
+  const t = useTranslations("Process");
+
   return (
-    <Section title="Discover" image={{ src: imageWhiteboard, shape: 1 }}>
+    <Section title={t("Process3")} image={{ src: imageWhiteboard, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          We work closely with our clients to understand their{" "}
-          <strong className="font-semibold text-neutral-950">needs</strong> and
-          goals, embedding ourselves in their every day operations to understand
-          what makes their business tick.
+        {t("Process4")}
         </p>
         <p>
-          Our team of private investigators shadow the company director’s for
-          several weeks while our account managers focus on going through their
-          trash. Our senior security experts then perform social engineering
-          hacks to gain access to their{" "}
-          <strong className="font-semibold text-neutral-950">business</strong>
-          {" "}accounts that information over to our forensic accounting
-          team.
+        {t("Process5")}
         </p>
         <p>
-          Once the full audit is complete, we report back with a comprehensive
-          <strong className="font-semibold text-neutral-950">plan</strong>{" "}and,
-          more importantly, a budget.
+        {t("Process6")}
         </p>
       </div>
       <h3 className="mt-12 font-display text-base font-semibold text-neutral-950">
-        Included in this phase
+      {t("Process7")}
       </h3>
       <TagList className="mt-4">
-        <TagListItem>In-depth questionnaires</TagListItem>
-        <TagListItem>Feasibility studies</TagListItem>
-        <TagListItem>Blood samples</TagListItem>
-        <TagListItem>Employee surveys</TagListItem>
-        <TagListItem>Proofs-of-concept</TagListItem>
-        <TagListItem>Forensic audit</TagListItem>
+        <TagListItem>{t("Process8")}</TagListItem>
+        <TagListItem>{t("Process9")}</TagListItem>
+        <TagListItem>{t("Process10")}</TagListItem>
+        <TagListItem>{t("Process11")}</TagListItem>
+        <TagListItem>{t("Process12")}</TagListItem>
+        <TagListItem>{t("Process13")}</TagListItem>
       </TagList>
     </Section>
   );

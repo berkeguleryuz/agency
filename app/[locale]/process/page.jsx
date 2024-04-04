@@ -4,16 +4,17 @@ import Deliver from "@/components/Deliver";
 import Discover from "@/components/Discover";
 import PageIntro from "@/components/PageIntro";
 import Values from "@/components/Values";
+import { useTranslations } from "next-intl";
 import React from "react";
 
 const ProcessPage = () => {
+  const t = useTranslations("Process");
+  
   return (
-    <>
-      <PageIntro eyebrow="Our process" title="How we work">
+    <div>
+      <PageIntro eyebrow={t("Process0")} title={t("Process1")}>
         <p>
-          We believe in efficiency and maximizing our resources to prive the
-          best value to our clients. The primary way we do that is by re-using
-          our resources.
+        {t("Process2")}
         </p>
       </PageIntro>
       <div className="mt-24 space-y-24 [counter-reset:section] sm:mt-32 sm:space-y-32 lg:mt-40 lg:space-y-40">
@@ -27,7 +28,7 @@ const ProcessPage = () => {
       {/* Values */}
       <Values />
       <ContactSection />
-    </>
+    </div>
   );
 };
 

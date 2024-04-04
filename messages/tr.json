@@ -1,0 +1,144 @@
+{
+  "Home": {
+    "Home0": "Çevrimiçi varlığınızı bizimle gerçeğe dönüştürün!",
+    "Home1": "Biz, tasarım ve teknolojinin kesiştiği noktada çalışan bir geliştirici grubuyuz.",
+    "Home2": "Başarı sadece zenginlikle ölçülmez; kişisel gelişim ve mutluluk da önemlidir."
+  },
+  "Clients": {
+    "Clients0": "Harika müşterilerimiz..."
+  },
+  "Services": {
+    "Services": "Servislerimiz",
+    "ServicesT": "Sizi yeni fırsatları tanımlamak, keşfetmek ve bunlara yanıt vermek konusunda destekliyoruz.",
+    "Services0": "Bu fırsatlar, eski projeleri yeniden amaçlandırmak üzere bize para verilmesini içeriyorsa, bunun sonsuz sayıda yolunu bulabiliriz.",
+    "Services1": "Güzel, yüksek kaliteli web ve blockchain geliştirmeleri ve sayfaları oluşturma konusunda uzmanız.",
+    "Services2": "Uygulamanızı oluşturmanıza yardımcı olabilecek deneyimli geliştiricilerden oluşan bir ekibimiz var.",
+    "Services3": "Modern e-ticaret gelişiminin ön saflarındayız. Bu, çoğunlukla, son altı yıldır kullandığımız Shopify mağaza şablonuna logonuzu eklemek anlamına gelir.",
+    "Services4": "Sosyal medyadaki topluluğunuzu yönetecek, güçlü bir marka oluşturacağız.",
+    "ServicesT1": "Web Geliştirme",
+    "ServicesT2": "Uygulama Geliştirme",
+    "ServicesT3": "E-Ticaret",
+    "ServicesT4": "Topluluk Yönetimi"
+  },
+  "ContactSection": {
+    "ContactSection0": "Bize projenizden bahsedin",
+    "ContactSection1": "Bize ulaşın",
+    "ContactSection2": "Ofislerimiz"
+  },
+  "Offices": {
+    "Offices": "Ofislerimiz",
+    "Offices0": "Türkiye",
+    "Offices1": "Almanya"
+  },
+  "Button": {
+    "Button0": "Bizimle iletişim kur"
+  },
+  "Navigation": {
+    "Navigation0": "İşlerimiz",
+    "Navigation1": "Hakkımızda",
+    "Navigation2": "Sürecimiz",
+    "Navigation3": "İletişim"
+  },
+  "Work": {
+    "Work0": "İşlerimiz",
+    "Work1": "Gerçek dünya vizyonları için kanıtlanmış çözümler",
+    "Work2": "Verimliliğe ve kaynaklarımızı en iyi şekilde kullanarak müşterilerimize en iyi çözümleri sunmaya inanıyoruz. Çalışmamızın ana odak noktası, işleri için müşterilerimize en iyi çözümleri sağlamaktır."
+  },
+  "Footer": {
+    "Footer0": "Bültenimize kaydolun",
+    "Footer1": "En son tasarım haberleri, makaleler, kaynaklar ve ilham almak için abone olun.",
+    "Footer2": "E-posta adresi",
+    "Footer3": "Hakkında",
+    "Footer4": "Süreçlerimiz",
+    "Footer5": "Bize ulaşın",
+    "Footer6": "Linkler",
+    "Footer7": "İnternet ve Blockchain Ajansı"
+  },
+  "Process": {
+    "Process0": "Sürecimiz",
+    "Process1": "Nasıl Çalışırız",
+    "Process2": "Verimliliğe ve müşterilerimize en iyi değeri sunmak için kaynaklarımızı en iyi şekilde kullanmaya inanıyoruz. Bunu yapmanın temel yolu, kaynaklarımızı yeniden kullanmaktır.",
+    "Process3": "Keşfet",
+    "Process4": "Müşterilerimizle yakın çalışarak ihtiyaçlarını ve hedeflerini anlamak için onların günlük operasyonlarına kendimizi dahil ederiz, işlerini neyin işlettiğini anlamaya çalışırız.",
+    "Process5": "Özel dedektiflerimiz takımı, birkaç hafta boyunca şirket direktörlerini gözetlerken, hesap yöneticilerimiz çöplerinden bilgi toplamaya odaklanır. Ardından, kıdemli güvenlik uzmanlarımız sosyal mühendislik hileleri yaparak onların işhesaplarına erişim sağlar ve bu bilgileri adli muhasebe ekibimize aktarır.",
+    "Process6": "Tam denetim tamamlandıktan sonra, kapsamlı bir plan ve daha da önemlisi bir bütçe ile geri bildirim yaparız.",
+    "Process7": "Bu aşamada dahil olanlar.",
+    "Process8": "Detaylı anketler",
+    "Process9": "Fizibilite çalışmaları",
+    "Process10": "Deneme çalışmaları",
+    "Process11": "Çalışan anketleri",
+    "Process12": "Kavram kanıtları",
+    "Process13": "Adli denetim",
+    "Process14": "Keşif aşamasına dayanarak, her ürün için kapsamlı bir yol haritası geliştirir ve teslimata doğru çalışmaya başlarız. Yol haritası, projeyi mümkün olduğunca uzun süre sürükleme amacı taşıyan teknik saçmalıkların karmaşık bir karışımıdır.",
+    "Process15": "Her müşteriye, iletişim hatlarını açık tutmak ve projenin gerçek ilerlemesini gizlemek için bir ana hesap yöneticisi atanır. Onlar, müşterinin sürekli sızlanmaları ile kodu yeniden amaçlamak için açık kaynak projeleri tarayan geliştirme ekibi arasında bir tampon görevi görürler.",
+    "Process16": "Hesap yöneticilerimiz, genel olarak çok meşgul olduğumuz havasını pekiştirmek ve müşterilerin değişiklik talep etmesini caydırmak için, ilk e-postanın üzerinden birkaç gün sonra ve sadece saat 21.00'den sonra müşteri e-postalarına yanıt vermeleri için eğitilirler.",
+    "Process17": "Clodron, projenizi sıfırdan inşa edecek.",
+    "Process18": "İnşa Et",
+    "Process19": "Teslim Et",
+    "Process20": "İnşa aşamasının yarısında, gereksinimlerdeki bir değişiklik nedeniyle her projeyi 6 hafta erteleyerek bütçeyi başlatmadan önce son bir kez artırma fırsatı buluruz.",
+    "Process21": "Çoğunlukla önceden hazırlanmış bileşenler kullanılmasına rağmen, her projede asıl ilerleme genellikle son 24 saat içinde gerçekleşir. Her müşteriye ayrılan geliştirme süresi aslında, X'te viral olan artırılmış gerçeklik demoları yapmakla geçirilir.",
+    "Process22": "Sitenin ana sayfalarının lansmanda tamamen işlevsel olduğundan emin oluruz - yardımcı sayfalar elbette lorem ipsum kabukları olacak ve aşırı bakım sözleşmemizin bir parçası olarak güncellenecektir.",
+    "Process23": "Bu aşamada dahildir",
+    "Process24": "Test Etme",
+    "Process25": "Projelerimiz her zaman %100 test kapsamına sahiptir, ki bu, testlerimiz bir elek kadar gözenekli olmasaydı etkileyici olurdu.",
+    "Process26": "Altyapı",
+    "Process27": "Güvenilirliği sağlamak için sadece ayda 4 dolarlık en iyi servis sunucularını kullanırız.",
+    "Process28": "Destek",
+    "Process29": "İşletmenizin kullandığı her kritik servisin API anahtarlarını tuttuğumuz için, bizden ömür boyu destek ve faturalar bekleyebilirsiniz.",
+    "Process30": "Değerlerimiz",
+    "Process31": "Güvenilirlik ve yeniliği dengeleme",
+    "Process32": "Yeni trendlerin ve teknolojilerin ön saflarında kalmaya çalışırken, onları tamamen görmezden gelip kendimizi rahat hissettiğimiz o eski Rails projeyi çatallıyoruz. Bu kararı haklı çıkarmak için temel değerlerimize bağlı kalıyoruz.",
+    "Process33": "Titiz",
+    "Process34": "Herhangi bir ortaklığın ilk kısmı, tasarımcımızı logonuzu şablonumuza koymaya ikna etmektir. İkinci adım onları renkleri yapmaya ikna etmektir.",
+    "Process35": "Verimli",
+    "Process36": "Bir süreyi asla kaçırmamakla gurur duyarız ki bu, çoğu işin yıllar önce yapılmış olması nedeniyle kolaydır.",
+    "Process37": "Uyarlanabilir",
+    "Process38": "Her işletmenin benzersiz ihtiyaçları vardır ve en büyük zorluğumuz bu ihtiyaçları zaten inşa ettiğimiz bir şeye sıkıştırmaktır.",
+    "Process39": "Dürüst",
+    "Process40": "Tüm süreçlerimiz hakkında şeffafız, müşterilerimizin aslında hiçbir şey okumadıkları basit gerçeğine dayanıyoruz.",
+    "Process41": "Sadık",
+    "Process42": "Müşterilerimizle, sadece bir ürün teslim etmenin ötesine geçen uzun vadeli ilişkiler geliştiririz, bu da bize onları onlarca yıl boyunca faturalandırma olanağı sağlar.",
+    "Process43": "Yenilikçi",
+    "Process44": "Teknolojik manzara her zaman evrim geçiriyor ve biz de öyleyiz. Sürekli olarak klonlamak için yeni açık kaynak projeleri arıyoruz."
+  },
+  "About": {
+    "About0": "Hakkımızda",
+    "About1": "Gücümüz işbirliğindedir",
+    "About2": "Gücümüzün, müşterilerimizi her şeyin merkezine koyan işbirlikçi yaklaşımımızda yattığına inanıyoruz.",
+    "About3": "Clodron, geliştirici ajanslarının müşterilerden bir iç ekip maliyetinin iki katını aldığını fark eden bir grup arkadaş tarafından başlatıldı. Başından beri, üç katı ücret alarak farklı işler yapmaya kendimizi adadık.",
+    "About4": "Clodron'da biz sadece meslektaşlardan fazlasıyız — bir aileyiz. Bu, çok az ödeme yaptığımız ve insanların geç saatlere kadar çalışmasını beklediğimiz anlamına gelir. Çalışanlarımızın işe tüm benliklerini getirmelerini istiyoruz. Karşılığında, sadece en az 18:30'a kadar orada kalmalarını istiyoruz.",
+    "About5": "Ortak çalışanlar",
+    "About6": "Tamamlanmış müşteriler",
+    "About7": "Total hacim"
+  },
+  "Culture": {
+    "Culture0": "Kültürümüz",
+    "Culture1": "Tutkunuzu yaşam tutkunuzla dengeleyin.",
+    "Culture2": "Aynı temel değerleri paylaşan benzer düşüncelere sahip bir grubuz.",
+    "Culture3": "Sadakat",
+    "Culture4": "Takımımız başlangıçtan beri bizimle çünkü hepimiz kendi işlerimizle ilgilenebiliyoruz.",
+    "Culture5": "Güven",
+    "Culture6": "Takımımızın ne zaman çalıştığına bakmıyoruz, yeter ki istekli olsunlar.",
+    "Culture7": "Şefkat",
+    "Culture8": "Birinin evde neler yaşadığını asla bilemezsiniz ve biz de asla öğrenmemeye özen gösteririz."
+  },
+  "Contact": {
+    "Contact0": "Bize Ulaşın",
+    "Contact1": "Birlikte Çalışalım",
+    "Contact2": "Sizden haber almayı sabırsızlıkla bekliyoruz.",
+    "Contact3": "Ofislerimiz",
+    "Contact4": "Yüz yüze iş yapmayı mı tercih ediyorsunuz? Sizi görmek bizi mutlu eder!",
+    "Contact5": "Bize E-posta Gönderin",
+    "Contact6": "Kariyer",
+    "Contact7": "Basın",
+    "Contact8": "İş Sorgulamaları",
+    "Contact9": "Ad",
+    "Contact10": "E-posta",
+    "Contact11": "Şirket",
+    "Contact12": "Telefon",
+    "Contact13": "Mesaj",
+    "Contact14": "Bütçe",
+    "Contact15": "Birlikte Çalışalım",
+    "Contact16": "E-posta gönderilemedi. Lütfen tekrar deneyin."
+  }
+}

@@ -2,11 +2,17 @@ import nodemailer from "nodemailer";
 
 export default async function handler(req, res) {
   if (req.method === "POST") {
+    console.log('Gelen veri:', req.body);
     try {
       const { name, email, company, phone, message, budget } = req.body;
 
       const transporter = nodemailer.createTransport({
-        service: "Gmail",
+        host: "smtp-mail.outlook.com",
+        secureConnection: false,
+        port: 587,
+        tls: {
+            ciphers: 'SSLv3'
+        },
         auth: {
           user: process.env.MAIL_USER,
           pass: process.env.MAIL_PASS,
@@ -23,7 +29,7 @@ export default async function handler(req, res) {
           Company: ${company}
           Phone: ${phone}
           Message: ${message}
-          Budget: $${budget}
+          Budget: ${budget}
         `,
       };
 

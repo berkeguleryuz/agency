@@ -4,6 +4,7 @@ import FadeIn from "./FadeIn";
 import FooterNavigaton from "./FooterNavigaton";
 import Link from "next/link";
 import Logo from "./Logo";
+import { useTranslations } from "next-intl";
 
 const ArrowIcon = (props) => {
   return (
@@ -19,21 +20,19 @@ const ArrowIcon = (props) => {
 };
 
 const NewsletterForm = () => {
+  const t = useTranslations("Footer");
+
   return (
     <form className="m-w-sm">
       <h2 className="font-display text-sm font-semibold tracking-wider text-neutral-950">
-        Sign up for our newsletter
+        {t("Footer1")}
       </h2>
-      <p className="mt-4 text-sm text-neutral-700">
-        Subscribe to get the latest design news, articles, resources and
-        inspiration.
-      </p>
+      <p className="mt-4 text-sm text-neutral-700">{t("Footer0")}</p>
       <div className="relative mt-6">
         <input
           type="email"
-          placeholder="Email address"
+          placeholder={t("Footer2")}
           autoComplete="email"
-          aria-label="Email address"
           className="block w-full rounded-2xl border border-neutral-300 bg-transparent py-4 pl-6 pr-20 text-base/6 text-neutral-950 ring-4 ring-transparent transition placeholder:text-neutral-500 focus:border-neutral-950 focus:outline-none focus:ring-neutral-950/5"
         />
         <div className="absolute inset-y-1 right-1 flex justify-end">
@@ -50,6 +49,8 @@ const NewsletterForm = () => {
 };
 
 const Footer = () => {
+  const t = useTranslations("Footer");
+
   return (
     <Container as="footer" className="mt-24 w-full sm:mt-32 lg:mt-40">
       <FadeIn>
@@ -61,11 +62,10 @@ const Footer = () => {
         </div>
         <div className="mb-20 mt-24 flex flex-wrap items-end w-full justify-between gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12">
           <Link href={"/"} aria-label="Home">
-            <Logo className="h-8">
-              Clodron
-            </Logo>
+            <Logo className="h-8">Clodron</Logo>
           </Link>
-          <p className="text-sm text-neutral-700">Web & Blockchain Agency</p>
+          <p className="text-sm text-neutral-700">{t("Footer7")}
+</p>
         </div>
       </FadeIn>
     </Container>

@@ -16,7 +16,7 @@ const SectionIntro = ({
       <FadeIn className="max-w-2xl">
         <h2>
           {eyebrow && (
-            <>
+            <div>
               <span
                 className={clsx(
                   "mb-6 block font-display text-base font-semibold",
@@ -25,7 +25,7 @@ const SectionIntro = ({
                 {eyebrow}
               </span>
               <span className="sr-only"> - </span>
-            </>
+            </div>
           )}
           <span
             className={clsx(

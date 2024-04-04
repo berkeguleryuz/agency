@@ -1,4 +1,5 @@
 import clsx from "clsx";
+import { useTranslations } from "next-intl";
 
 function Office({ name, children, invert = false }) {
   return (
@@ -17,18 +18,19 @@ function Office({ name, children, invert = false }) {
 }
 
 const Offices = ({ invert = false, ...props }) => {
+  const t = useTranslations("Offices");
   return (
     <ul role="list" {...props}>
       <li>
-        <Office name="Turkey" invert={invert}>
-            <br />
-            Izmir
+        <Office name={t("Offices0")} invert={invert}>
+          <br />
+          Izmir
         </Office>
       </li>
       <li>
-        <Office name="Netherlands" invert={invert}>
-            <br />
-            Amsterdam
+        <Office name={t("Offices1")} invert={invert}>
+          <br />
+          Berlin
         </Office>
       </li>
     </ul>
