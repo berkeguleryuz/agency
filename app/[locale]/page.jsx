@@ -7,6 +7,7 @@ import ContactSection from "@/components/ContactSection";
 import { useTranslations } from "next-intl";
 import { LocaleSwitchers } from "@/components/LangToggle";
 import { unstable_setRequestLocale } from "next-intl/server";
+import Values from "@/components/Values";
 
 export default function Home({ locale }) {
   unstable_setRequestLocale(locale);
@@ -30,6 +31,7 @@ export default function Home({ locale }) {
       </Testimonials>
       <Services />
       <ContactSection />
+      <Values />
     </main>
   );
 }

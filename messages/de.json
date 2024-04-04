@@ -1,54 +1,147 @@
 {
   "Home": {
-    "Home0": "asdy with us!",
-    "Home1": "We are a group of developer working at the intersection of design and technology.",
-    "Home2": "Success is not measured by wealth alone; it's also about personal growth and happiness."
+    "Home0": "Machen Sie Ihre Online-Präsenz mit uns zur Realität!",
+    "Home1": "Wir sind eine Gruppe von Entwicklern, die an der Schnittstelle von Design und Technologie arbeiten.",
+    "Home2": "Erfolg wird nicht allein durch Reichtum gemessen; es geht auch um persönliches Wachstum und Glück."
   },
   "Clients": {
-    "Clients0": "We worked with amazing clients"
+    "Clients0": "Unsere erstaunlichen Kunden"
   },
   "Services": {
-    "Services": "Services",
-    "ServicesT": "We help you identify, explore and respond to new opportunities.",
-    "Services0": "As long as those opportunities involve giving us money to re-purpose old projects — we can come up with an endless number of those.",
-    "Services1": "We specialize in creating beatufiul, high quality web and blockchain developments and pages.",
-    "Services2": "We have a team of experienced developers who can help you build your application.",
-    "Services3": "We are at the forefront of modern e-commerce development. Which mainly means adding your logo to the Shopify store template we’ve used for the past six years.",
-    "Services4": "We will manage your community on social media, building a strong brand.",
-    "ServicesT1": "Web Development",
-    "ServicesT2": "Application Development",
+    "Services": "Dienstleistungen",
+    "ServicesT": "Wir helfen Ihnen, neue Möglichkeiten zu identifizieren, zu erkunden und darauf zu reagieren.",
+    "Services0": "Solange diese Möglichkeiten beinhalten, uns Geld zu geben, um alte Projekte neu zu verwenden – können wir endlos viele davon finden.",
+    "Services1": "Wir sind spezialisiert auf die Erstellung von schönen, hochwertigen Web- und Blockchain-Entwicklungen und -Seiten.",
+    "Services2": "Wir haben ein Team von erfahrenen Entwicklern, die Ihnen beim Aufbau Ihrer Anwendung helfen können.",
+    "Services3": "Wir sind an der Spitze der modernen E-Commerce-Entwicklung. Das bedeutet hauptsächlich, Ihr Logo auf die Shopify-Store-Vorlage zu setzen, die wir in den letzten sechs Jahren verwendet haben.",
+    "Services4": "Wir verwalten Ihre Community in sozialen Medien und bauen eine starke Marke auf.",
+    "ServicesT1": "Webentwicklung",
+    "ServicesT2": "Anwendungsentwicklung",
     "ServicesT3": "E-Commerce",
     "ServicesT4": "Community Management"
   },
   "ContactSection": {
-    "ContactSection0": "Tell us about your project",
-    "ContactSection1": "Contact us",
-    "ContactSection2": "Our offices"
+    "ContactSection0": "Erzählen Sie uns von Ihrem Projekt",
+    "ContactSection1": "Kontaktieren Sie uns",
+    "ContactSection2": "Unsere Büros"
   },
   "Offices": {
-    "Offices": "Our Offices",
-    "Offices0": "Turkey",
-    "Offices1": "Germany"
+    "Offices": "Unsere Büros",
+    "Offices0": "Türkei",
+    "Offices1": "Deutschland"
   },
   "Button": {
-    "Button0": "Contact us"
+    "Button0": "Kontaktieren Sie uns"
   },
   "Navigation": {
-    "Navigation0": "Our Work",
-    "Navigation1": "About Us",
-    "Navigation2": "Our Process",
-    "Navigation3": "Contact"
+    "Navigation0": "Unsere Arbeit",
+    "Navigation1": "Über uns",
+    "Navigation2": "Unser Prozess",
+    "Navigation3": "Kontakt"
   },
   "Work": {
-    "Work0": "Our Work",
-    "Work1": "Proven solutions for real-world visions",
-    "Work2": "We believe in efficiency and maximizing our resources to provide our clients with the best solutions. The primary focus of our work is to provide our clients with the best solutions for their business."
+    "Work0": "Unsere Arbeit",
+    "Work1": "Bewährte Lösungen für reale Visionen",
+    "Work2": "Wir glauben an Effizienz und die Maximierung unserer Ressourcen, um unseren Kunden die besten Lösungen zu bieten. Der Schwerpunkt unserer Arbeit besteht darin, unseren Kunden die besten Lösungen für ihr Geschäft zu bieten."
   },
-  "LocaleSwitcher": {
-    "label": "Sprache ändern",
-    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unbekannt}}"
+  "Footer": {
+    "Footer0": "Melden Sie sich für unseren Newsletter an",
+    "Footer1": "Abonnieren Sie, um die neuesten Designnachrichten, Artikel, Ressourcen und Inspiration zu erhalten.",
+    "Footer2": "E-Mail-Adresse",
+    "Footer3": "Über",
+    "Footer4": "Prozess",
+    "Footer5": "Kontaktieren Sie uns",
+    "Footer6": "Links",
+    "Footer7": "Web- und Blockchain-Agentur"
+  },
+  "Process": {
+    "Process0": "Unser Prozess",
+    "Process1": "Wie wir arbeiten",
+    "Process2": "Wir glauben an Effizienz und die Maximierung unserer Ressourcen, um unseren Kunden den besten Wert zu bieten. Die Hauptweise, wie wir das tun, ist durch die Wiederverwendung unserer Ressourcen.",
+    "Process3": "Entdecken",
+    "Process4": "Wir arbeiten eng mit unseren Kunden zusammen, um ihre Bedürfnisse und Ziele zu verstehen, und integrieren uns in ihren Alltag, um zu verstehen, was ihr Geschäft antreibt.",
+    "Process5": "Unser Team von Privatdetektiven schattet den Firmendirektor für mehrere Wochen, während unsere Account-Manager sich darauf konzentrieren, ihren Müll zu durchsuchen. Unsere leitenden Sicherheitsexperten führen dann Social-Engineering-Hacks durch, um Zugang zu ihren Geschäftskonten zu erhalten, und übergeben diese Informationen an unser forensisches Buchhaltungsteam.",
+    "Process6": "Sobald die vollständige Überprüfung abgeschlossen ist, berichten wir zurück mit einem umfassenden Plan und, was noch wichtiger ist, einem Budget.",
+    "Process7": "In dieser Phase enthalten",
+    "Process8": "Umfassende Fragebögen",
+    "Process9": "Machbarkeitsstudien",
+    "Process10": "Testmuster",
+    "Process11": "Mitarbeiterumfragen",
+    "Process12": "Proofs-of-Concept",
+    "Process13": "Forensische Überprüfung",
+    "Process14": "Basierend auf der Entdeckungsphase entwickeln wir eine umfassende Roadmap für jedes Produkt und beginnen mit der Lieferung. Die Roadmap ist ein verworrenes Durcheinander von technischem Unsinn, das darauf ausgelegt ist, das Projekt so lange wie möglich hinauszuzögern.",
+    "Process15": "Jedem Kunden wird ein Schlüssel-Account-Manager zugewiesen, um die Kommunikationswege offen und den tatsächlichen Fortschritt des Projekts unklar zu halten. Sie dienen als Puffer zwischen dem ständigen Nörgeln des Kunden und dem Entwicklungsteam, das hart daran arbeitet, Open-Source-Projekte nach Code zu durchsuchen, der wiederverwendet werden kann.",
+    "Process16": "Unsere Account-Manager sind darauf geschult, nur nach 21 Uhr auf Kunden-E-Mails zu antworten, mehrere Tage nach der ursprünglichen E-Mail. Dies verstärkt die allgemeine Aura, dass wir sehr beschäftigt sind und entmutigt Kunden, nach Änderungen zu fragen.",
+    "Process17": "Clodron wird Ihr Projekt von Grund auf aufbauen.",
+    "Process18": "Bauen",
+    "Process19": "Liefern",
+    "Process20": "Etwa in der Mitte der Bauphase schieben wir jedes Projekt um 6 Wochen aufgrund einer Änderung der Anforderungen. Dies ermöglicht es uns, das Budget ein letztes Mal vor dem Start zu erhöhen.",
+    "Process21": "Trotz der überwiegenden Verwendung von vorgefertigten Komponenten findet der größte Teil des Fortschritts bei jedem Projekt in den letzten 24 Stunden statt. Die Entwicklungszeit, die jedem Kunden zugewiesen wird, wird tatsächlich damit verbracht, Augmented-Reality-Demos zu erstellen, die auf X viral gehen.",
+    "Process22": "Wir stellen sicher, dass die Hauptseiten der Website bei der Einführung voll funktionsfähig sind — die Hilfsseiten werden natürlich Lorem Ipsum-Hüllen sein, die als Teil unseres exorbitanten Wartungsvertrags aktualisiert werden.",
+    "Process23": "In dieser Phase enthalten",
+    "Process24": "Testen",
+    "Process25": "Unsere Projekte haben immer 100% Testabdeckung, was beeindruckend wäre, wenn unsere Tests nicht so porös wie ein Sieb wären.",
+    "Process26": "Infrastruktur",
+    "Process27": "Um Zuverlässigkeit zu gewährleisten, verwenden wir nur die besten Digital Ocean Droplets, die 4 Dollar im Monat kaufen können.",
+    "Process28": "Support",
+    "Process29": "Da wir die API-Schlüssel für jeden kritischen Dienst, den Ihr Unternehmen verwendet, halten, können Sie ein Leben lang Support und Rechnungen von uns erwarten.",
+    "Process30": "Unsere Werte",
+    "Process31": "Zuverlässigkeit und Innovation ausbalancieren",
+    "Process32": "Wir streben danach, an der Spitze aufkommender Trends und Technologien zu stehen, während wir sie komplett ignorieren und dieses alte Rails-Projekt forken, bei dem wir uns wohlfühlen. Wir stehen zu unseren Kernwerten, um diese Entscheidung zu rechtfertigen.",
+    "Process33": "Akribisch",
+    "Process34": "Der erste Teil jeder Partnerschaft besteht darin, unser Designer bringt Ihr Logo in unsere Vorlage. Der zweite Schritt ist, sie dazu zu bringen, die Farben zu machen.",
+    "Process35": "Effizient",
+    "Process36": "Wir sind stolz darauf, nie eine Frist zu verpassen, was einfach ist, weil die meiste Arbeit schon vor Jahren erledigt wurde.",
+    "Process37": "Anpassungsfähig",
+    "Process38": "Jedes Unternehmen hat einzigartige Bedürfnisse und unsere größte Herausforderung besteht darin, diese Bedürfnisse in etwas zu zwängen, das wir bereits gebaut haben.",
+    "Process39": "Ehrlich",
+    "Process40": "Wir sind transparent in allen unseren Prozessen, in der Hoffnung, dass unsere Kunden tatsächlich nie etwas lesen.",
+    "Process41": "Loyal",
+    "Process42": "Wir pflegen langfristige Beziehungen zu unseren Kunden, die über die reine Lieferung eines Produkts hinausgehen und es uns ermöglichen, ihnen jahrzehntelang Rechnungen zu stellen.",
+    "Process43": "Innovativ",
+    "Process44": "Die technologische Landschaft entwickelt sich ständig weiter und wir auch. Wir sind ständig auf der Suche nach neuen Open-Source-Projekten zum Klonen."
+  },
+  "About": {
+    "About0": "Über uns",
+    "About1": "Unsere Stärke ist die Zusammenarbeit",
+    "About2": "Wir glauben, dass unsere Stärke in unserem kollaborativen Ansatz liegt, der unsere Kunden in den Mittelpunkt von allem stellt, was wir tun.",
+    "About3": "Clodron wurde von einer Gruppe von Freunden gegründet, die bemerkten, dass Entwicklungsagenturen den Kunden das Doppelte dessen berechneten, was ein internes Team kosten würde. Seit dem Beginn sind wir darauf bedacht, die Dinge anders zu machen, indem wir stattdessen das Dreifache berechnen.",
+    "About4": "Bei Clodron sind wir mehr als nur Kollegen — wir sind eine Familie. Das bedeutet, wir zahlen sehr wenig und erwarten, dass die Leute spät arbeiten. Wir möchten, dass unsere Mitarbeiter ihr ganzes Selbst zur Arbeit bringen. Im Gegenzug bitten wir sie nur, sich dort bis mindestens 18:30 Uhr aufzuhalten.",
+    "About5": "Unterbezahlte Mitarbeiter",
+    "About6": "Besänftigte Kunden",
+    "About7": "Ausgestellte Rechnungen"
+  },
+  "Culture": {
+    "Culture0": "Unsere Kultur",
+    "Culture1": "Balancieren Sie Ihre Leidenschaft mit Ihrer Leidenschaft für das Leben.",
+    "Culture2": "Wir sind eine Gruppe von Gleichgesinnten, die die gleichen Kernwerte teilen.",
+    "Culture3": "Loyalität",
+    "Culture4": "Unser Team ist seit dem Beginn bei uns, weil keiner von ihnen LinkedIn-Profile haben darf.",
+    "Culture5": "Vertrauen",
+    "Culture6": "Uns ist es egal, wann unser Team arbeitet, solange sie jede wache Sekunde arbeiten.",
+    "Culture7": "Mitgefühl",
+    "Culture8": "Man weiß nie, was jemand zu Hause durchmacht, und wir stellen sicher, dass wir es nie herausfinden."
+  },
+  "Contact": {
+    "Contact0": "Kontaktieren Sie uns",
+    "Contact1": "Lassen Sie uns zusammenarbeiten",
+    "Contact2": "Wir können es kaum erwarten, von Ihnen zu hören.",
+    "Contact3": "Unsere Büros",
+    "Contact4": "Bevorzugen Sie persönliche Treffen? Wir würden uns freuen, Sie zu sehen!",
+    "Contact5": "Schreiben Sie uns eine E-Mail",
+    "Contact6": "Karriere",
+    "Contact7": "Presse",
+    "Contact8": "Arbeitsanfragen",
+    "Contact9": "Name",
+    "Contact10": "E-Mail",
+    "Contact11": "Firma",
+    "Contact12": "Telefon",
+    "Contact13": "Nachricht",
+    "Contact14": "Budget",
+    "Contact15": "Lassen Sie uns zusammenarbeiten",
+    "Contact16": "E-Mail wurde nicht gesendet. Bitte versuchen Sie es erneut."
   },
   "LocaleLayout": {
-    "title": "next-intl Beispiel"
+    "title": "Clodron Marketingagentur"
   }
 }
