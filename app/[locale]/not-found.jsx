@@ -3,7 +3,7 @@ import FadeIn from "@/components/FadeIn";
 import Link from "next/link";
 import React from "react";
 
-const NotFound = () => {
+const NotFoundd = () => {
   return (
     <Container className="flex h-full items-center pt-20 sm:pt-24 lg:pt-32">
       <FadeIn className="flex flex-col items-center">
@@ -26,4 +26,4 @@ const NotFound = () => {
   );
 };
 
-export default NotFound;
+export default NotFoundd;
