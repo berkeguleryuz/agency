@@ -5,4 +5,4 @@ export const pathnames = {
 };
 
 // Use the default: `always`
-export const localePrefix = undefined;
+export const localePrefix = never;
