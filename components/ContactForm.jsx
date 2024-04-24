@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import FadeIn from "./FadeIn";
 import TextInput from "./TextInput";
 import RadioInput from "./RadioInput";
@@ -8,6 +8,7 @@ import { useTranslations } from "next-intl";
 
 const ContactForm = () => {
   const t = useTranslations("Contact");
+  const timerRef = useRef(null);
 
   const [formData, setFormData] = useState({
     name: "",
@@ -23,25 +24,33 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("/api/route", {
+      const response = await fetch("/api/mail", {
         method: "POST",
         headers: {
-          "Content-Type": "application/json",
+          "content-type": "application/json",
         },
         body: JSON.stringify(formData),
       });
 
-      if (response.ok) {
-        const data = await response.json();
-        setSuccessMessage(data.message);
-      } else {
-        throw new Error("E-mail did not send. Please try again.");
-      }
+      setSuccessMessage("Email sent successfully");
     } catch (error) {
       console.error(error);
       setErrorMessage(t("Contact16"));
     }
   };
+
+  useEffect(() => {
+    if (successMessage || errorMessage) {
+      if (timerRef.current) clearTimeout(timerRef.current);
+      timerRef.current = window.setTimeout(() => {
+        setSuccessMessage("");
+        setErrorMessage("");
+      }, 5000);
+    }
+    return () => {
+      if (timerRef.current) clearTimeout(timerRef.current);
+    };
+  }, [successMessage, errorMessage]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -91,25 +100,25 @@ const ContactForm = () => {
               <RadioInput
                 label="$1K – $50K"
                 name="budget"
-                value="25"
+                value="1-50K"
                 onChange={handleChange}
               />
               <RadioInput
                 label="$50K – $100K"
                 name="budget"
-                value="50"
+                value="50 - 100K"
                 onChange={handleChange}
               />
               <RadioInput
                 label="$100K – $150K"
                 name="budget"
-                value="100"
+                value="100 - 150K"
                 onChange={handleChange}
               />
               <RadioInput
                 label="$150K+"
                 name="budget"
-                value="150"
+                value="150K+"
                 onChange={handleChange}
               />
             </div>
