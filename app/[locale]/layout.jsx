@@ -1,21 +1,7 @@
 import RootLayout from "@/components/RootLayout";
 import "../globals.css";
-import { locales } from "../../config";
-import { getTranslations, unstable_setRequestLocale } from "next-intl/server";
+import { unstable_setRequestLocale } from "next-intl/server";
 import { NextIntlClientProvider, useMessages, useTimeZone } from "next-intl";
-
-// export function generateStaticParams() {
-//   return locales.map((locale) => ({ locale }));
-// }
-
-// export async function generateMetadata({ params: { locale } }) {
-//   const t = await getTranslations({ locale, namespace: "LocaleLayout" });
-
-//   return {
-//     title: t("title"),
-//     favicon: "/qrberke.png",
-//   };
-// }
 
 export const metadata = {
   title: "Clodron Agency",
