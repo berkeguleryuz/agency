@@ -17,6 +17,7 @@ import {
   useTimeZone,
 } from "next-intl";
 import { Link } from "../navigation";
+import { LocaleSwitchers } from "./LangToggle";
 
 const Header = ({
   panelId,
@@ -34,9 +35,10 @@ const Header = ({
       <div className="flex items-center justify-between">
         {/* Logo */}
         <Link href={"/"} aria-label="Home">
-          <Logo invert={invert}>Clodron</Logo>
+          <Logo invert={invert} />
         </Link>
         <div className="flex items-center gap-x-8">
+        <LocaleSwitchers />
           <Button href={"/contact"} invert={invert}>
             {t("Button0")}
           </Button>

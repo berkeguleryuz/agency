@@ -38,7 +38,7 @@ const Clients = () => {
             {clients.map(([client, logo]) => (
               <div
                 key={client}
-                className="sm:w-auto sm:h-auto justify-center text-center items-center self-center flex hover:opacity-70 hover:scale-105">
+                className="sm:w-auto sm:h-auto justify-center text-center items-center self-center flex hover:opacity-70 hover:scale-105 transition-all duration-300">
                 <li
                   key={client}
                   className="justify-center items-center text-center ">

@@ -11,6 +11,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { FcGlobe } from "react-icons/fc";
 import { useTransition } from "react";
+import { Globe } from "lucide-react";
 
 export function LocaleSwitchers() {
   const [isPending, startTransition] = useTransition();
@@ -35,8 +36,8 @@ export function LocaleSwitchers() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline" className="h-8 w-8 border-none" size="icon">
-          <FcGlobe className="h-8 w-8" />
+        <Button variant="outline" className="h-8 w-8 border-none rounded-2xl" size="icon">
+          <Globe className="h-7 w-7 hover:scale-105 transition-all" />
           <span className="sr-only">Change Language</span>
         </Button>
       </DropdownMenuTrigger>

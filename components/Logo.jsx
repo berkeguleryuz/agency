@@ -1,13 +1,21 @@
 import clsx from "clsx";
+import Image from "next/image";
 import Link from "next/link";
 
 const Logo = ({ invert, href, className, children, ...props }) => {
   className = clsx(
     className,
-    "black",
     invert ? "text-white hover:text-blue" : "text-black hover:text-blue-600",
   );
-  const inner = <span className="relative">{children}</span>;
+
+  const logoSrc = invert ? "/logow.png" : "/logo.png"; 
+  const inner = (
+    <span className="relative">
+      <Image src={logoSrc} alt="Logo" className="h-8 w-auto hover:scale-105 transition-all duration-300" unoptimized width={100} height={100} />
+      {children}
+    </span>
+  );
+
   if (href) {
     return (
       <Link href={href} className={className} {...props}>
@@ -15,6 +23,7 @@ const Logo = ({ invert, href, className, children, ...props }) => {
       </Link>
     );
   }
+
   return (
     <h2
       className={clsx(

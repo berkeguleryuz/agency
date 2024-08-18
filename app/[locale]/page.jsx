@@ -14,9 +14,9 @@ export default function Home({ locale }) {
   const t = useTranslations("Home");
   return (
     <main className="text-black">
-      <div className="flex justify-center">
+      {/* <div className="flex justify-center">
         <LocaleSwitchers />
-      </div>
+      </div> */}
       <Container className="mt-24 sm:mt-32">
         <FadeIn className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
