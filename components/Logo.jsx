@@ -11,7 +11,7 @@ const Logo = ({ invert, href, className, children, ...props }) => {
   const logoSrc = invert ? "/logow.png" : "/logo.png"; 
   const inner = (
     <span className="relative">
-      <Image src={logoSrc} alt="Logo" className="h-8 w-auto hover:scale-105 transition-all duration-300" unoptimized width={100} height={100} />
+      <Image src={logoSrc} alt="Logo" className="hover:scale-105 transition-all duration-300" unoptimized width={150} height={150} />
       {children}
     </span>
   );
