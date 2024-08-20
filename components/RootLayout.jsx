@@ -37,9 +37,9 @@ const Header = ({
         <Link href={"/"} aria-label="Home">
           <Logo invert={invert} />
         </Link>
-        <div className="flex items-center md:gap-x-8 gap-x-2">
+        <div className="flex items-center md:gap-x-4 gap-x-2">
         <LocaleSwitchers />
-          <Button href={"/contact"} className={"px-1.5 md:px-4 text-[10px] md:text-base flex-1"} invert={invert}>
+          <Button href={"/contact"} className={"px-[10px] md:px-4 text-[10px] md:text-base flex-1"} invert={invert}>
             {t("Button0")}
           </Button>
           <button
